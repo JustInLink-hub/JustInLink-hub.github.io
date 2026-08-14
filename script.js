@@ -123,6 +123,51 @@ if (contactSection && !document.querySelector('#delegate')) {
   }
 }
 
+/* Visual polish: enlarge the real logo and keep the profile photo fully visible at the top of the circle. */
+const polishStyle = document.createElement('style');
+polishStyle.textContent = `
+  .site-header .logo{
+    width:76px!important;
+    height:76px!important;
+    border-radius:50%!important;
+    display:grid!important;
+    place-items:center!important;
+    overflow:hidden!important;
+  }
+  .site-header .logo img{
+    width:124%!important;
+    height:124%!important;
+    max-width:none!important;
+    object-fit:contain!important;
+    object-position:center!important;
+  }
+  .portrait{
+    width:100%!important;
+    aspect-ratio:1/1!important;
+    padding:10px!important;
+    border-radius:50%!important;
+  }
+  .portrait img{
+    width:100%!important;
+    height:100%!important;
+    border-radius:50%!important;
+    object-fit:cover!important;
+    object-position:center 18%!important;
+  }
+  .aboutpic{
+    object-position:center 18%!important;
+  }
+  .footer-inner img{
+    object-fit:contain!important;
+  }
+  @media(max-width:650px){
+    .site-header .logo{width:64px!important;height:64px!important}
+    .site-header .logo img{width:124%!important;height:124%!important}
+    .hero-card{max-width:290px!important}
+  }
+`;
+document.head.appendChild(polishStyle);
+
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
