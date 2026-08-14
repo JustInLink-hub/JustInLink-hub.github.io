@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">JustInLink content tracker sample</title>
+<desc id="desc">A clean portfolio preview of a social media content tracker showing planning, captions, hashtags, visual type, status, and approval fields.</desc>
+<rect width="1400" height="760" rx="28" fill="#f8f4eb"/>
+<rect x="34" y="30" width="1332" height="700" rx="20" fill="#fffdf9" stroke="#d9d3c7" stroke-width="2"/>
+<rect x="34" y="30" width="1332" height="76" rx="20" fill="#0a2947"/>
+<rect x="34" y="84" width="1332" height="22" fill="#0a2947"/>
+<text x="70" y="77" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fffdf9">JustInLink Content Tracker</text>
+<text x="1080" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#e7d3a7">CONTENT MANAGEMENT</text>
+<g font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#fffdf9">
+<text x="60" y="145">CHANNEL</text><text x="170" y="145">DAY</text><text x="250" y="145">STATUS</text><text x="355" y="145">DATE</text><text x="470" y="145">TIME (GMT)</text><text x="585" y="145">POST TOPIC / TYPE</text><text x="765" y="145">CAPTION</text><text x="920" y="145">HASHTAG</text><text x="1035" y="145">VISUAL TYPE</text><text x="1155" y="145">STATUS</text><text x="1260" y="145">COMMENTS</text>
+</g>
+<rect x="48" y="160" width="1304" height="1" fill="#d9d3c7"/>
+<g font-family="Arial, sans-serif" font-size="13" fill="#26333f">
+<rect x="48" y="160" width="1304" height="155" fill="#fffdf9"/>
+<text x="60" y="188" font-weight="700">All Social Media</text><text x="60" y="208">Accounts</text><text x="170" y="198">Wednesday</text><text x="250" y="198" fill="#8b641e" font-weight="700">In Progress</text><text x="355" y="198">July 8, 2026</text><text x="470" y="198">10:00 PM</text><text x="585" y="188" font-weight="700">Introduction</text><text x="585" y="208">Carousel / Social post</text><text x="765" y="188">Running a business takes</text><text x="765" y="208">a lot of your time. Social</text><text x="765" y="228">media can easily become</text><text x="920" y="188">#JustInLink</text><text x="920" y="208">#SocialMedia</text><text x="1035" y="198">Carousel / Slideshow</text><rect x="1150" y="181" width="82" height="30" rx="15" fill="#e7d3a7"/><text x="1170" y="201" font-weight="700">APPROVED</text><text x="1260" y="198">Ready for review</text>
+<rect x="48" y="315" width="1304" height="155" fill="#f8f4eb"/>
+<text x="60" y="343" font-weight="700">All Social Media</text><text x="60" y="363">Accounts</text><text x="170" y="353">Thursday</text><text x="250" y="353" fill="#8b641e" font-weight="700">In Progress</text><text x="355" y="353">July 9, 2026</text><text x="470" y="353">1:00 PM</text><text x="585" y="343" font-weight="700">Educational</text><text x="585" y="363">Restaurant social media</text><text x="765" y="343">Helpful educational</text><text x="765" y="363">caption with clear CTA</text><text x="920" y="343">#ContentStrategy</text><text x="920" y="363">#SocialMediaMarketing</text><text x="1035" y="353">Carousel / Slideshow</text><rect x="1150" y="336" width="82" height="30" rx="15" fill="#e7d3a7"/><text x="1170" y="356" font-weight="700">APPROVED</text><text x="1260" y="353">Visual linked</text>
+<rect x="48" y="470" width="1304" height="155" fill="#fffdf9"/>
+<text x="60" y="498" font-weight="700">All Social Media</text><text x="60" y="518">Accounts</text><text x="170" y="508">Friday</text><text x="250" y="508" fill="#8b641e" font-weight="700">In Progress</text><text x="355" y="508">July 10, 2026</text><text x="470" y="508">1:00 PM</text><text x="585" y="498" font-weight="700">Motivational</text><text x="585" y="518">Quotation</text><text x="765" y="498">Short motivational message</text><text x="765" y="518">with engagement prompt</text><text x="920" y="498">#GrowthMindset</text><text x="920" y="518">#FreelancerLife</text><text x="1035" y="508">Reels / Video</text><rect x="1150" y="491" width="82" height="30" rx="15" fill="#e7d3a7"/><text x="1170" y="511" font-weight="700">APPROVED</text><text x="1260" y="508">Scheduled</text>
+</g>
+<rect x="48" y="650" width="1304" height="52" rx="12" fill="#f3e4c9"/>
+<text x="72" y="683" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0a2947">Planning → Captions → Hashtags → Visuals → Approval → Publishing</text>
+</svg>
