@@ -11,7 +11,20 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 });
 
 const slides = [...document.querySelectorAll(".slide")];
-const dots = [...document.querySelectorAll(".dot")];
+const dotsContainer = document.querySelector(".dots");
+const dots = slides.map((_, i) => {
+  const dot = document.createElement("button");
+  dot.className = "dot" + (i === 0 ? " active" : "");
+  dot.type = "button";
+  dot.setAttribute("aria-label", `Go to slide ${i + 1}`);
+  dot.addEventListener("click", () => {
+    showSlide(i);
+    restartAuto();
+  });
+  dotsContainer.appendChild(dot);
+  return dot;
+});
+
 let current = 0;
 let autoPlay;
 
@@ -28,12 +41,6 @@ document.querySelector(".prev").addEventListener("click", () => {
 document.querySelector(".next").addEventListener("click", () => {
   showSlide(current + 1);
   restartAuto();
-});
-dots.forEach((dot, i) => {
-  dot.addEventListener("click", () => {
-    showSlide(i);
-    restartAuto();
-  });
 });
 
 function startAuto() {
